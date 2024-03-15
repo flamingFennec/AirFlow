@@ -1,0 +1,39 @@
+li {
+    float: left;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+li a {
+    display: flex;
+    width: 90px;
+    background-color: lightgray;
+    border-radius: 9px;
+    list-style: none;
+    text-align: center;
+    
+}
+div {
+    text-align: center;
+    width: 800px;
+}
+
+p {
+    width: 800px;
+    height: 90px;
+    text-align: center;
+    margin-right: auto;
+}
+
+#div_2 {
+    text-align: center;
+}
+
+nav {
+    width: 50px;
+}
