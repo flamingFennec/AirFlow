@@ -12,18 +12,15 @@ ul {
 li a {
     display: flex;
     width: 90px;
+    height: 20px;
     background-color: lightgray;
     border-radius: 9px;
     list-style: none;
     text-align: center;
-    
-}
-div {
-    text-align: center;
-    width: 800px;
+    padding-left: 20px;
 }
 
-p {
+#div_3 {
     width: 800px;
     height: 90px;
     text-align: center;
@@ -32,8 +29,30 @@ p {
 
 #div_2 {
     text-align: center;
+    float: left;
 }
 
 nav {
     width: 50px;
 }
+
+#box {
+    width: 850px;
+    height: 850px;
+    background-color: black;
+    float: right;
+    box-shadow: gray;
+    border-radius: 100px;
+    padding-right: 100px;
+  }
+
+  a:link, a:visited, a:hover, a:active { 
+    text-decoration: none; 
+    color: black;
+  } 
+
+  #div_4 {
+    text-align: center;
+    width: 800px;
+    padding-left: 80px;
+  }
